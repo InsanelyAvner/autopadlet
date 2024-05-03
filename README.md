@@ -28,7 +28,7 @@ Simple tools for automated liking & commenting on [padlet](https://padlet.com/).
 
 # Installation
 1. Clone the repository `git clone https://github.com/InsanelyAvner/autopadlet.git`
-    * Alternative, you may choose to download this project as a `.zip` and unzip it.
+    * Alternatively, you may choose to download this project as a `.zip` and unzip it.
 2. Install required libraries `pip install -r requirements.txt`
 3. Find your target padlet post, right click on it and select "Copy link to post"
 4. Paste the full link into link.txt
