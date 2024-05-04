@@ -4,7 +4,7 @@
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 
 [![Author](https://img.shields.io/badge/author-InsanelyAvner-lightgrey.svg?style=flat&color=%23673ab7)](https://github.com/InsanelyAvner)
-[![GitHub LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat&color=%232196f3)](https://github.com/InsanelyAvner/autopadlet/LISENCE)
+[![GitHub LICENSE](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/InsanelyAvner/autopadlet/LISENCE)
 [![Release](https://img.shields.io/github/v/release/InsanelyAvner/autopadlet?style=flat&color=%23009688)](https://github.com/InsanelyAvner/autopadlet/releases)
 
 Simple tools for automated liking & commenting on [padlet](https://padlet.com/).
