@@ -54,4 +54,6 @@ Copyright © 2024 by InsanelyAvner.
 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
 
+## Special Thanks
+
 Thanks [@p55d2k](https://github.com/p55d2k) for your support :)
