@@ -4,7 +4,7 @@
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 
 [![Author](https://img.shields.io/badge/author-InsanelyAvner-lightgrey.svg?style=flat&color=%23673ab7)](https://github.com/InsanelyAvner)
-[![GitHub LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat&color=%232196f3)](https://github.com/InsanelyAvner/autopadlet/LISENCE)
+[![GitHub LICENSE](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/InsanelyAvner/autopadlet/LISENCE)
 [![Release](https://img.shields.io/github/v/release/InsanelyAvner/autopadlet?style=flat&color=%23009688)](https://github.com/InsanelyAvner/autopadlet/releases)
 
 Simple tools for automated liking & commenting on [padlet](https://padlet.com/).
@@ -28,7 +28,7 @@ Simple tools for automated liking & commenting on [padlet](https://padlet.com/).
 
 ## Installation
 1. Clone the repository `git clone https://github.com/InsanelyAvner/autopadlet.git`
-    * Alternative, you may choose to download this project as a `.zip` and unzip it.
+    * Alternatively, you may choose to download this project as a `.zip` and unzip it.
 2. Install required libraries `pip install -r requirements.txt`
 
 ## Usage
@@ -52,7 +52,4 @@ Your contributions are always welcome! Feel free to fork this project and work o
 
 Copyright © 2024 by InsanelyAvner.
 
-This project is licensed under the GNU General Public License v3.0 - see the LICENSE file for details.
-
-## Special Thanks
 Thanks [@p55d2k](https://github.com/p55d2k) for your support :)
