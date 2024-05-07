@@ -4,7 +4,7 @@
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 
 [![Author](https://img.shields.io/badge/author-InsanelyAvner-lightgrey.svg?style=flat&color=%23673ab7)](https://github.com/InsanelyAvner)
-[![GitHub LICENSE](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/InsanelyAvner/autopadlet/LISENCE)
+[![GitHub LICENSE](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/InsanelyAvner/autopadlet/LICENSE)
 [![Release](https://img.shields.io/github/v/release/InsanelyAvner/autopadlet?style=flat&color=%23009688)](https://github.com/InsanelyAvner/autopadlet/releases)
 
 Simple tools for automated liking & commenting on [padlet](https://padlet.com/).
@@ -51,5 +51,7 @@ Your contributions are always welcome! Feel free to fork this project and work o
 [(Back to top)](#table-of-contents)
 
 Copyright © 2024 by InsanelyAvner.
+
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
 
 Thanks [@p55d2k](https://github.com/p55d2k) for your support :)
