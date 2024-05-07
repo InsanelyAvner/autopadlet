@@ -1,3 +1,4 @@
+.gitignore
 zk.py
 comments.py
 config.json
