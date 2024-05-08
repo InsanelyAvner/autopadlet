@@ -10,7 +10,7 @@ from selenium.webdriver.common.by import By
 from selenium import webdriver
 
 # Config checking
-with open("config.json") as f:
+with open("config-p.json") as f:
     config = json.load(f)
 
 if not "link" in config or not "mode" in config:
