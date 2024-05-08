@@ -1,0 +1,23 @@
+fetch("https://hwachong.padlet.org/api/5/reactions", {
+  "headers": {
+    "accept": "application/json, application/vnd.api+json",
+    "accept-language": "en-GB,en;q=0.8",
+    "authorization": "Bearer b09faf6adadd3a4901f9e169b434ce1071da72cd947afa72f0c6f93031f62c65",
+    "content-type": "application/json; charset=utf-8",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"124\", \"Brave\";v=\"124\", \"Not-A.Brand\";v=\"99\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "same-origin",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1",
+    "x-csrf-token": "6pnh7K6PtionlXxwClgW8hEybuPUJC5ADgwcNRzHpbBNKAc+sc1aT4DA7K/uvY0yICL7DFdId9TgaCMd4X8bXw==",
+    "x-uid": "17151357089550008274175435919906",
+    "cookie": "ww_d=ba143f9600b94202ca61e494f1b0e91c; ww_s=50c0e1fb526c41a21f9fe506dd7d77dc; ww_f=beta%3Dfalse; __cf_bm=lbGcCvQKyjoE1w4wb3pSflXFesWujhb9eHce27f3P4I-1715135676-1.0.1.1-O8reKzOnK3IAaewNWw1tGwOl.0CdFo8F2SEqnABQGpBb0hOE3xhFO_Op7pkisYhSeqcjae3t8VVGPv5nbXeVyA; ww_dpr=1; ww_tz=Asia/Singapore; ww_l=en-GB; ww_p=V1BzdU1pRXpKbXRaMXloN1VmczJhRjAvV1JMMU9wZjRDMkhUM3NpNk1GWjdwQlFHaEFvcmR5N1hwc1Q4L1IwMlpPSS9ILyt6MTdsY3BmdFdZUWRPbUFnWXBDOFlIWDhiaG9nMXhuTDhjekR2bEF2V1VBWmp0dzVoN2RNWm1DOHdrZUZhdnlFWUlVVTh4UjVkS1ZDMVpjMS8xUTNwbHFHYUQ2dDM1MVRmNE5uY2hDRU5QUThvZlRIcWdrM09JUCtwbU9vN041OGZhT1JIcTJmeUN2L1BZN1NNODNVSlFnT1ZJRHZ6TU9tVWtPTGdlcjhWMFNScmZodGxLS0NYMUEzWmJ1bzNhVi9nTTlMTnhrUzVtY2xsUC95SmhvR3lneWtnTDBDd01RUmxkYVg2VHdEM2U4WnRMQlFNcFhTMWZEeEJuK1lQL2J4aVRNcnZNZkJySk0vMmpnY1pNd2dkVFB0R05RYUNMME9zNjBwdU5MemlwOVRqa1owMWhwNExLNmRVLS1ucUthVHU2N1BXT3AxdjUwS0huVjVnPT0%3D--5f5a35d0b3028ad3d434d63546882830aa184ca6",
+    "Referer": "https://hwachong.padlet.org/chungal2/2a3-artistic-showcase-gthnvmnzp4nngp4",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": "{\"wish_id\":2981053318,\"value\":1,\"reaction_type\":\"like\"}",
+  "method": "POST"
+});
