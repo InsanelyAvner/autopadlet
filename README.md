@@ -36,7 +36,7 @@ Simple tools for automated liking & commenting on [padlet](https://padlet.com/).
 * Options:
     * **link:** Right click on your target post and click on "Copy link to post". Enter the link here
     * **mode:** Choose your desired automation mode: `"like"` or `"comment"`
-    * **threads:** Amount of threads you want (recommended: 3-8)
+    * **threads:** Amount of automated instances that you want running concurrently (recommended: 3-8, varies based on computing power)
 
 
 
