@@ -1,5 +1,6 @@
 .gitignore
+TESTING
 zk.py
 comments.py
-config.json
+config-p.json
 main_ARCHIVE.py

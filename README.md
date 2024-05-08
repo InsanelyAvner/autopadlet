@@ -31,18 +31,13 @@ Simple tools for automated liking & commenting on [padlet](https://padlet.com/).
     * Alternatively, you may choose to download this project as a `.zip` and unzip it.
 2. Install required libraries `pip install -r requirements.txt`
 
-## Usage
-1. Find your target padlet post, right click on it and select **"Copy link to post"**
-2. Paste the full link into `link.txt`
-3. Open `runner.py` using a code editor
-4. Change the variable `MODE` to:
-    * `"comment"` to automate comments
-    * `"like"` to automake likes
-5. Change the variable `parallel_instances` to the number of automated scripts that you want running concurrently.
-    * **Recommended value: 3-8 instances**
-    * This varies based on your computer's power. The more instances there are, the slower your computer will be.
-6. Run the file `runner.py`
-    * `py runner.py`
+## Configuration
+* autopadlet's configuration can all be found in `config.json`
+* Options:
+    * **link:** Right click on your target post and click on "Copy link to post". Enter the link here
+    * **mode:** Choose your desired automation mode: `"like"` or `"comment"`
+    * **threads:** Amount of threads you want (recommended: 3-8)
+
 
 
 ## Contributing
