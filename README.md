@@ -13,12 +13,24 @@ Simple tools for automated liking & commenting on [padlet](https://padlet.com/).
 
 ## Table of contents
 
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Contributing](#contributing)
-- [License](#license)
+- [autopadlet](#autopadlet)
+  - [Table of contents](#table-of-contents)
+  - [Downloading Autopadlet](#downloading-autopadlet)
+  - [Running Locally](#running-locally)
+    - [Requirements](#requirements)
+    - [Installation](#installation)
+    - [Configuration](#configuration)
+    - [Contributing](#contributing)
+    - [License](#license)
+    - [Special Thanks](#special-thanks)
 
-## Requirements
+## Downloading Autopadlet
+Download `autopadlet.exe` from this project's releases tab. Ensure that your antivirus is turned off and ignore the windows defender smartscreen. This project is safe and open-source.
+
+## Running Locally
+
+
+### Requirements
 
 * Python >= 3.6
 * Pip
@@ -26,12 +38,12 @@ Simple tools for automated liking & commenting on [padlet](https://padlet.com/).
 * Chrome (no restrictions)
     * To remove all Chrome policies/restrictions, run the `kool krome kode.reg` file.
 
-## Installation
+### Installation
 1. Clone the repository `git clone https://github.com/InsanelyAvner/autopadlet.git`
     * Alternatively, you may choose to download this project as a `.zip` and unzip it.
 2. Install required libraries `pip install -r requirements.txt`
 
-## Configuration
+### Configuration
 * autopadlet's configuration can all be found in `config.json`
 * Options:
     * **link:** Right click on your target post and click on "Copy link to post". Enter the link here
@@ -40,13 +52,13 @@ Simple tools for automated liking & commenting on [padlet](https://padlet.com/).
 
 
 
-## Contributing
+### Contributing
 
 [(Back to top)](#table-of-contents)
 
 Your contributions are always welcome! Feel free to fork this project and work on it.
 
-## License
+### License
 
 [(Back to top)](#table-of-contents)
 
@@ -54,6 +66,6 @@ Copyright © 2024 by InsanelyAvner.
 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
 
-## Special Thanks
+### Special Thanks
 
 Thanks [@p55d2k](https://github.com/p55d2k) for your support :)
