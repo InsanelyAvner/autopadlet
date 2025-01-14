@@ -5,6 +5,7 @@ import random
 import threading
 import traceback
 from datetime import datetime
+import time
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtCore import QSettings
@@ -70,7 +71,6 @@ def run_autopadlet(logger_callback, link, mode, threads):
                 # Like logic
                 if mode.lower() == "like":
                     # Preliminary short delay to let the page load fully
-                    import time
                     time.sleep(1)  # Adjust as needed
 
                     try:
@@ -110,25 +110,53 @@ def run_autopadlet(logger_callback, link, mode, threads):
                             logger_callback(f"[INSTANCE {n}] Normal 'Done' click intercepted: {e_click}\nTrying JS click.")
                             driver.execute_script("arguments[0].click();", done_button)
 
-                        time.sleep(4)
+                        time.sleep(1.5)
                     except Exception as e:
                         logger_callback(f"[INSTANCE {n}] No Done Button Found: {e}")
 
                 # Comment logic
                 else:
-                    comment_box = wait.until(
-                        EC.element_to_be_clickable(
-                            (By.XPATH, '//*[@id="surface-container"]/div[4]/div[2]/div/div[2]/div/div[4]/div[2]/div/div/div/div/div/p')
+                    try:
+                        comment_box = WebDriverWait(driver, 10).until(
+                            EC.element_to_be_clickable(
+                                (By.XPATH, '//div[@data-testid="surfacePostCommentEditInput" and @contenteditable="true"]')
+                            )
                         )
-                    )
-                    comment_box.send_keys(random.choice(comments))
+                        comment_box.send_keys(random.choice(comments))
 
-                    comment_button = wait.until(
-                        EC.element_to_be_clickable(
-                            (By.XPATH, '//*[@id="surface-container"]/div[4]/div[2]/div/div[2]/div/div[4]/div[2]/div/button')
+                        comment_button = comment_button = WebDriverWait(driver, 10).until(
+                            EC.element_to_be_clickable(
+                                (By.XPATH, "//button[@data-testid='surfaceExpandedPostSubmitCommentButton']")
+                            )
                         )
-                    )
-                    comment_button.click()
+
+                        comment_button.click()
+                        time.sleep(0.5)
+                        try:
+                            time.sleep(1)
+                            done_button = wait.until(
+                                EC.element_to_be_clickable(
+                                    (By.XPATH, '//*[@id="app"]/div[4]/div/div/div/div/form/div[2]/button')
+                                )
+                            )
+                            driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", done_button)
+
+                            # Normal click, then fallback
+                            try:
+                                done_button.click()
+                            except Exception as e_click:
+                                logger_callback(f"[INSTANCE {n}] Normal 'Done' click intercepted: {e_click}\nTrying JS click.")
+                                driver.execute_script("arguments[0].click();", done_button)
+
+                            time.sleep(1)
+                        except Exception as e:
+                            logger_callback(f"[INSTANCE {n}] No Done Button Found: {e}")
+
+                            time.sleep(1.5)
+                    except Exception as e:
+                        print(e)
+ 
+                    
 
                 count += 1
                 logger_callback(
